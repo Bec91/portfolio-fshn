@@ -1,0 +1,29 @@
+
+[ 
+    {
+        "id": 0,
+        "image":"FashionImage/img10.jpg",
+        "alt": "fashion look",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet erat non lorem placerat varius eu quis enim. Proin a libero leo. Vestibulum pretium luctus dolor ac aliquet. In."
+    }, 
+    {
+        "id": 1,
+        "image":"FashionImage/img4.jpg",
+        "alt": "fashion look",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet erat non lorem placerat varius eu quis enim. Proin a libero leo. Vestibulum pretium luctus dolor ac aliquet. In."
+    }, 
+    {
+        "id": 2,
+        "image":"FashionImage/img5.jpg",
+        "alt": "fashion look",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet erat non lorem placerat varius eu quis enim. Proin a libero leo. Vestibulum pretium luctus dolor ac aliquet. In."
+       }, 
+    {
+        "id": 3,
+        "image":"FashionImage/img7.jpg",
+        "alt": "fashion look",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet erat non lorem placerat varius eu quis enim. Proin a libero leo. Vestibulum pretium luctus dolor ac aliquet. In."
+   
+    } 
+]
+

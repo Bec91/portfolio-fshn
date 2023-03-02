@@ -4,13 +4,13 @@ import './MainPage.scss'
 import Img1 from '../../Assets/Images/img1.jpg'
 
 // Components
-import Carousel from './Carousel/Carousel';
+import TrendingContainer from './TrendingContainer/TrendingContainer';
 
 
 function MainPage() {
     return (
-        <section className='mainPage'>
-            <div className='mainPage__containerOne'>
+        <section>
+            <div className='mainPage'>
                 <h3 className='mainPage__subTitle'>Who We Are</h3>
                 <div className='mainPage__mainPara'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -21,7 +21,7 @@ function MainPage() {
                 </div>
                 <img src={Img1} alt='' className='mainPage__mainImage'/>
             </div>
-            <Carousel/>
+            <TrendingContainer/>
         </section>
     )
 }
