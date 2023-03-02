@@ -1,2 +1,22 @@
 @use '../../Styles/Partials/mixins' as *;
 @use '../../Styles/Partials/typography' as *;
+
+.mainPage {
+
+    &__containerOne {
+
+    }
+    &__subTitle {
+
+    }
+    &__mainPara {
+
+    }
+    &__mainImage {
+        height: 50vh;
+        width: 90%;
+    }
+    &__carousel{
+        
+    }
+}
