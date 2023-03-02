@@ -1,0 +1,29 @@
+@use '../../Styles/Partials/mixins' as *;
+@use '../../Styles/Partials/typography' as *;
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @include mukta;
+    &__hContain {
+        padding-top: 4rem;
+        display: flex;
+        justify-content: center;
+        @include tablet-breakpoint {
+            justify-content: flex-start;
+            padding-left: 4rem;
+        }
+        @include desktop-breakpoint {
+            padding-left: 8rem;
+        }
+    }
+    &__title {
+        @include color9;
+        font-size: 3.5rem;
+        @include tablet-breakpoint {
+            font-size: 4.5rem;
+        }
+    }
+}

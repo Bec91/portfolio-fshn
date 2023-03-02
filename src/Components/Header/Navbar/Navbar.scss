@@ -1,0 +1,30 @@
+@use '../../../Styles/Partials/mixins' as *;
+@use '../../../Styles/Partials/typography' as *;
+
+.navbar {
+    padding-top: 1rem;
+    &__navContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        list-style-type: none;
+        padding-left: 0;
+        @include tablet-breakpoint {
+            justify-content: flex-end;
+            padding-right: 4rem;
+        }
+        @include desktop-breakpoint {
+            padding-right: 8rem;
+        }
+    }
+    &__link {
+        @include color9;
+        text-decoration: none;
+        @include tablet-breakpoint {
+            padding: 0.5rem;
+        }
+        @include desktop-breakpoint {
+            padding: 1rem;
+        }
+    }
+}

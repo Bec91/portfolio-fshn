@@ -35,3 +35,36 @@ $monitor-breakpoint: 2000px;
 }
 
 // COLOURS
+
+@mixin color1 {
+    color: #0A2619;
+}
+@mixin color2 {
+    color: #8C0335;
+}
+@mixin color3 {
+    color: #5ABF86;
+}
+@mixin color4 {
+    color: #A6A28F;
+}
+@mixin color5 {
+    color: #BF9780;
+}
+
+
+@mixin color6 {
+    color: #BF0449;
+}
+@mixin color7 {
+    color: #D90B6B;
+}
+@mixin color8 {
+    color: #102613;
+}
+@mixin color9 {
+    color: #1F4021;
+}
+@mixin color10 {
+    color: #BF2C1F;
+}
