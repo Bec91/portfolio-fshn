@@ -1,0 +1,37 @@
+// BREAKPOINTS
+
+$tablet-breakpoint: 768px;
+$desktop-breakpoint: 1280px;
+$monitor-breakpoint: 2000px;
+
+
+@mixin tablet-breakpoint {
+    @media screen and (min-width: $tablet-breakpoint){
+        @content;
+    }
+}
+
+@mixin desktop-breakpoint {
+    @media screen and (min-width: $desktop-breakpoint){
+        @content;
+    }
+}
+
+@mixin monitor-breakpoint {
+    @media screen and (min-width: $monitor-breakpoint){
+        @content;
+    }
+}
+
+
+// Font Family
+
+@mixin raleway {
+    font-family: 'Raleway';
+}
+
+@mixin mukta {
+    font-family: 'Mukta';
+}
+
+// COLOURS
