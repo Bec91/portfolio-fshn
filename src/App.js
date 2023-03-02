@@ -4,7 +4,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 // Components
 import Header from './Components/Header/Header';
 
-
 function App() {
   return (
     <div className="App">
