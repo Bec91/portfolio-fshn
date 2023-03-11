@@ -36,35 +36,25 @@ $monitor-breakpoint: 2000px;
 
 // COLOURS
 
-@mixin color1 {
-    color: #0A2619;
-}
-@mixin color2 {
-    color: #8C0335;
-}
-@mixin color3 {
-    color: #5ABF86;
-}
-@mixin color4 {
-    color: #A6A28F;
-}
-@mixin color5 {
-    color: #BF9780;
-}
-
-
-@mixin color6 {
-    color: #BF0449;
-}
-@mixin color7 {
+@mixin highlightOne {
     color: #D90B6B;
+    background-color: #D90B6B;
+
 }
-@mixin color8 {
-    color: #102613;
+@mixin highlightTwo {
+    color: #0D0D0D;
+    background-color: #0D0D0D;
 }
-@mixin color9 {
+@mixin backgroundColor {
+    background-color: #102613;
+}
+@mixin buttonColor {
     color: #1F4021;
 }
-@mixin color10 {
-    color: #BF2C1F;
+@mixin backgroundImgColor {
+    color: #F2D5C4;
+    background-color: #F2D5C4;
+}
+@mixin textColor {
+    color: #D9CDB8;
 }

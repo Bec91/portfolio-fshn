@@ -3,10 +3,11 @@
 
 
 .header {
+    @include backgroundColor;
+    @include mukta;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    @include mukta;
     &__hContain {
         padding-top: 4rem;
         display: flex;
@@ -20,7 +21,7 @@
         }
     }
     &__title {
-        @include color9;
+        @include textColor;
         font-size: 3.5rem;
         @include tablet-breakpoint {
             font-size: 4.5rem;

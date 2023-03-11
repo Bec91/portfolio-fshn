@@ -33,7 +33,9 @@ function MainPage() {
                         Sed facilisis malesuada metus vel venenatis. 
 
                     </div>
+                    <div className='mainPage__imgContainer'>
                     <img src={Img1} alt='' className='mainPage__mainImage'/>
+                    </div>
                 </div>
             </div>
             <TrendingContainer/>

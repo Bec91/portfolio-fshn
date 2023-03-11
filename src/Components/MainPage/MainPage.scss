@@ -2,14 +2,21 @@
 @use '../../Styles/Partials/typography' as *;
 
 .mainPage {
+    @include backgroundColor;
     @include mukta;
+    @include textColor;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    // align-items: center;
     padding: 4rem 1rem 0 1rem;
     &__subTitle {
-        @include color9;
+        @include textColor;
+        display: flex;
+        justify-content: center;
         padding: 0 1rem 1rem 1rem;
+        @include desktop-breakpoint {
+            font-size: 2rem;
+        }
     }
     &__mainContainer {
         @include tablet-breakpoint {
@@ -19,6 +26,7 @@
         }
         @include desktop-breakpoint {
             padding: 3rem 6rem;
+            justify-content: space-evenly;
         }
     }
     &__mainPara {
@@ -26,24 +34,36 @@
         text-align: justify;
         line-height: 1.5rem;
         @include desktop-breakpoint {
-            padding: 1rem 6rem;
+            // padding: 4rem 6rem;
+            font-size: 1.2rem;
+        }
+    }
+    &__imgContainer {
+        padding: 5rem 2rem;
+        position: relative;
+        left: 1rem;
+        @include tablet-breakpoint {
+            left: 40px;
+        }
+        @include desktop-breakpoint {
+            // left: 90px;
+        }
+        @include monitor-breakpoint {
+            // left: 200px;
         }
     }
     &__mainImage {
-        border-radius: 4rem;
+        border-radius: 500px 500px 0 0;
+        box-shadow: -40px -50px 0px #F2D5C4;
         height: auto;
-        padding: 1rem 2rem;
         width: 100%;
-        @include tablet-breakpoint {
-            height: 50vh;
-            width: 50%;
-            margin: 3rem 0 0 1rem;
-        }
         @include desktop-breakpoint {
-            margin: 0;
-            height: 25%;
-            width: 35%;
-
+            height: 85%;
+            width: 90%;
+        }
+        @include monitor-breakpoint {
+            height: 80%;
+            width: 70%;
         }
     }
 }

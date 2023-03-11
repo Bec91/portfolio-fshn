@@ -23,15 +23,17 @@
 }
 .trending {
   @include mukta;
+  @include backgroundColor;
+  display: flex;
+  flex-direction: column;
   padding: 4rem 1rem;
   overflow: hidden;
-  background:var(--color-lightgrey);
   position:relative;
   @include tablet-breakpoint {
     padding: 4rem 2rem;
   }
   &__subTitle {
-      @include color9;
+      @include textColor;
       display: flex;
       justify-content: center;
       padding: 0 1rem 1rem 1rem;

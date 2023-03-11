@@ -44,7 +44,7 @@ function Trending () {
     }
 
     return(
-        <div className="trending  module-wrapper">
+        <section className="trending">
             <h3 className="trending__subTitle">What's Trending</h3>
             <div className='trending__trendContain'>
                 <div className='trending__buttonContain'>
@@ -61,7 +61,7 @@ function Trending () {
                     )}
                 </ul>
             </div>
-        </div>
+        </section>
     )
 }
 
