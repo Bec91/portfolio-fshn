@@ -31,10 +31,23 @@ function MainPage() {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Suspendisse sem odio, malesuada eget lectus eu, interdum maximus risus. 
                         Sed facilisis malesuada metus vel venenatis. 
+                        <br/>
+                        <br/>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Suspendisse sem odio, malesuada eget lectus eu, interdum maximus risus. 
+                        Sed facilisis malesuada metus vel venenatis. 
+                        <br/>
+                        <br/>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Suspendisse sem odio, malesuada eget lectus eu, interdum maximus risus. 
+                        Sed facilisis malesuada metus vel venenatis. 
+                        Aenean vel enim vel sapien cursus fermentum. 
+                        Nullam at metus eget elit commodo interdum.
+
 
                     </div>
                     <div className='mainPage__imgContainer'>
-                    <img src={Img1} alt='' className='mainPage__mainImage'/>
+                        <img src={Img1} alt='' className='mainPage__mainImage'/>
                     </div>
                 </div>
             </div>

@@ -7,7 +7,6 @@
     @include textColor;
     display: flex;
     flex-direction: column;
-    // align-items: center;
     padding: 4rem 1rem 0 1rem;
     &__subTitle {
         @include textColor;
@@ -46,7 +45,8 @@
             left: 40px;
         }
         @include desktop-breakpoint {
-            // left: 90px;
+            left: 90px;
+            top: 150px;
         }
         @include monitor-breakpoint {
             // left: 200px;
